@@ -1,0 +1,36 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+img{
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: $link_text;
+}
+body{
+	font-family: 'Roboto','Noto Sans TC', sans-serif;
+	line-height: 1.5;
+}
+
+// 基本版型
+.container{
+	margin: 0 auto;
+	max-width: 1320px;
+}
+.bg-primary{
+	background: $primary_color;
+}
+
+// layout-tools
+.d-flex{
+	display: flex;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.ai-c{
+	align-items: center;
+}

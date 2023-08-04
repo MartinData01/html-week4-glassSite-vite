@@ -1,0 +1,12 @@
+// base
+@import 'base/reset';
+@import 'base/variable';
+@import 'base/fontStyle';
+@import 'base/base';
+
+// latout
+@import 'layout/header';
+@import 'layout/footer';
+
+// pages
+@import 'pages/index';
