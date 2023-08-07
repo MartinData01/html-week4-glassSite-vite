@@ -19,6 +19,7 @@ body{
 .container{
 	margin: 0 auto;
 	max-width: 1320px;
+	padding: 0 12px;
 }
 .bg-primary{
 	background: $primary_color;
@@ -33,4 +34,7 @@ body{
 }
 .ai-c{
 	align-items: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
 }
