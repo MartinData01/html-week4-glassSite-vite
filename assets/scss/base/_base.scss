@@ -11,7 +11,7 @@ a{
 	color: $link_text;
 }
 body{
-	font-family: 'Roboto','Noto Sans TC', sans-serif;
+	font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.5;
 }
 
@@ -20,6 +20,14 @@ body{
 	margin: 0 auto;
 	max-width: 1320px;
 	padding: 0 12px;
+	// 平板模式
+	@media (max-width: 768px){
+		max-width: 720px;
+	}
+	// 手機模式
+	@media (max-width:375px){
+		max-width: 372px;
+	}
 }
 .bg-primary{
 	background: $primary_color;
