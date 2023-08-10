@@ -24,10 +24,29 @@
 .title-20{
     font-size: 20px;
 }
+.text-18{
+    font-size: 18px;
+}
 .link-middle{
     font-size: 20px;
     font-weight: 700;
 }
 .link-small{
     font-size: 14px;
+}
+
+// 版型配件
+.page-title{
+    border-left: 10px solid $primary_color;
+    padding-left: 16px;
+}
+
+// Phone
+@media (max-width: 375px){
+    .title-md-24{
+        font-size: 24px;
+    }
+    .title-md-20{
+        font-size: 20px;
+    }
 }
