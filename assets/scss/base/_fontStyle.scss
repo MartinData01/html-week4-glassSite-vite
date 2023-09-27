@@ -1,5 +1,17 @@
 // Noto Sans TC + Roboto
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+// colors
+.font-primary{
+    color: $primary_color;
+}
+.font-primary-dark{
+    color: $main_text;
+}
+.font-link{
+    color: $link_text;
+}
 
 // english
 .title-en{
@@ -33,6 +45,22 @@
 }
 .link-small{
     font-size: 14px;
+}
+.icon-big{
+    font-size: 84px;
+}
+
+// 粗細
+.font-bold{
+    font-weight: 700;
+}
+.font-900{
+    font-weight: 900;
+}
+
+// 斜體
+.font-italic{
+    font-style: italic;
 }
 
 // 版型配件

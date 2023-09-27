@@ -29,8 +29,19 @@ body{
 		max-width: 372px;
 	}
 }
+
+// 顏色 colors
 .bg-primary{
 	background: $primary_color;
+}
+.bg-primary-dark{
+	background: $primary_dark;
+}
+.bg-second-color{
+	background: $second_color;
+}
+.bg-white{
+	background: #fff;
 }
 
 // layout-tools
@@ -40,6 +51,9 @@ body{
 .jc-sb{
 	justify-content: space-between;
 }
+.jc-e{
+	justify-content: flex-end;
+}
 .ai-c{
 	align-items: center;
 }
@@ -48,4 +62,18 @@ body{
 }
 .flex-wrap{
 	flex-wrap: wrap;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+
+.h-100{
+	height: 100%;
+}
+.w-100{
+	width: 100%;
 }

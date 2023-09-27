@@ -4,7 +4,9 @@
 @import 'base/mixin';
 @import 'base/fontStyle';
 @import 'base/base';
-@import 'base/utils';
+
+// utils
+@import 'utils/utils';
 
 // latout
 @import 'layout/header';
