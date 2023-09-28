@@ -1,5 +1,5 @@
 // Noto Sans TC + Roboto
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,400;1,900&display=swap');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // colors
@@ -11,6 +11,9 @@
 }
 .font-link{
     color: $link_text;
+}
+.font-gray{
+    color: #707070;
 }
 
 // english
@@ -56,6 +59,12 @@
 }
 .font-900{
     font-weight: 900;
+}
+.font-medium{
+    font-weight: 500;
+}
+.font-regular{
+    font-weight: 400;
 }
 
 // 斜體

@@ -56,6 +56,9 @@
 }
 
 // Padding 內
+.p-16{
+    padding: 16px;
+}
 .px-12{
     padding-left: 12px;
     padding-right: 12px;
@@ -67,6 +70,10 @@
 .py-8{
     padding-top: 8px;
     padding-bottom: 8px;
+}
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .py-80{
     padding-top: 80px;
@@ -83,6 +90,9 @@
 }
 .pb-32{
     padding-bottom: 32px;
+}
+.ps-12{
+    padding-left: 12px;
 }
 
 // Margin 外
@@ -107,6 +117,9 @@
 .mb-8{
     margin-bottom: 8px;
 }
+.mb-16{
+    margin-bottom: 16px;
+}
 .mb-24{
     margin-bottom: 24px;
 }
@@ -122,6 +135,35 @@
 .mb-48{
     margin-bottom: 48px;
 }
+.mb-72{
+    margin-bottom: 72px;
+}
 .mb-80{
     margin-bottom: 80px;
+}
+
+// 邊框 border
+.border{
+    border: 1px solid #DEE2E6;
+}
+.border-none{
+    border: none;
+}
+.border-black{
+    border-color: black;
+}
+.border-top{
+    border-top: 1px solid #DEE2E6;
+}
+.border-bottom{
+    border-bottom: 1px solid #DEE2E6;
+}
+.border-start{
+    border-left: 1px solid #DEE2E6;
+}
+.border-end{
+    border-right: 1px solid #DEE2E6;
+}
+.border-round{
+    border-radius: 4px;
 }

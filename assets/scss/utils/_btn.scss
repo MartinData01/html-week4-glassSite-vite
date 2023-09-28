@@ -1,0 +1,6 @@
+.btn{
+    background: $primary_color;
+    &:hover{
+        background: $primary_dark;
+    }
+}

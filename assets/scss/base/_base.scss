@@ -43,10 +43,19 @@ body{
 .bg-white{
 	background: #fff;
 }
+.bg-none{
+	background: transparent;
+}
 
 // layout-tools
+.d-block{
+	display: block;
+}
 .d-flex{
 	display: flex;
+}
+.flex-column{
+	flex-direction: column;
 }
 .jc-sb{
 	justify-content: space-between;
@@ -63,7 +72,14 @@ body{
 .flex-wrap{
 	flex-wrap: wrap;
 }
+.mx-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.text-left{
+	text-align: left;
+}
 .text-center{
 	text-align: center;
 }
