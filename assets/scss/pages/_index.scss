@@ -1,18 +1,91 @@
+// 大標題區
 .bg-img1{
     background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
     background-size: cover;
     height: 787px;
+    @include pad{
+        background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
+    }
 }
+.index-title2{
+    @include pad{
+        font-size: 16px;
+    }
+}
+.index-title{
+    @include pad{
+        font-size: 24px;
+    }
+}
+.index-main-btn{
+    @include pad{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 16px;
+    }
+}
+
+// 專業的心 專業的事
+.index-block-title{
+    @include pad{
+        font-size: 24px;
+    }
+}
+
+// 聯名鏡框
 .bg-img2{
     background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
     background-size: cover;
+    @include pad{
+        background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg-sm.png");
+    }
 }
+.index-coo-block{
+    @include pad{
+        padding-left: 12px;
+        padding-right: 12px;
+        img{
+            height: 240px;
+        }
+    }
+}
+.pad-mb-24{
+    @include pad{
+        margin-bottom: 24px;
+    }
+}
+.pad-mb-16{
+    @include pad{
+        margin-bottom: 16px;
+    }
+}
+
+
 .glasses-type-img{
     height: 414px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    @include pad{
+        height: auto;
+    }
+}
+.customer{
+    box-shadow: 0 2px 6px #00000029;
+}
+
+// 聯絡我們
+.index-contact-dicp{
+    @include pad{
+        font-size: 16px;
+    }
 }
 .form-btn{
     width: 416px;
     &:hover{
         cursor: pointer;
+    }
+    @include pad{
+        width: 100%;
     }
 }
